@@ -1,0 +1,87 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    background: #fff;
+    padding: 30px;
+    width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Paragraph Styling */
+p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Team Section */
+.team-section {
+    margin-top: 20px;
+}
+
+/* Team Members Grid */
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Team Member Card */
+.team-member {
+    text-align: center;
+    width: 120px;
+}
+
+/* Team Member Image */
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #ff5e62;
+}
+
+/* Team Member Name */
+h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+    
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .team-member {
+        margin-bottom: 20px;
+    }
+}
